@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+}
+
+.center_content {
+    display: flex;
+    justify-content: center;
+}
+
+.top {
+    background-color: #E0E1E2;
+    padding-top: 25px;
+    padding-bottom: 48px;
+}
+
+.top__img {
+    height: 230px;
+    background: url(img/MX-Master\ 1.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 94px;
+    margin-bottom: 67px;
+}
+
+.heading {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 23px;
+    text-align: center;
+    color: #2F3132;
+}
+
+.text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #2F3132;
+    margin-bottom: 0;
+}
+
+.top__text-margin {
+    margin-left: 59px;
+    margin-right: 59px;
+}
+
+.top__arrow {
+    margin-top: 40px;
+}
+
+.bluetooth {
+    background-color: #EDEDED;
+    padding-top: 42px;
+    padding-bottom: 18px;
+}
+
+.bluetooth__icon {
+    margin-bottom: 27px;
+}
+
+.text__margin {
+    margin-left: 34px;
+    margin-right: 33px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.bluetooth__heading {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #C4C4C4;
+}
+
+.bluetooth__img {
+    background: url(img/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1.png) no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+    height: 288px;
+    margin-top: 31px;
+}
+
+.info {
+    background-color: #FFFFFF;
+    padding-top: 70px;
+    padding-bottom: 63px;
+}
+
+.info__text-margin {
+    margin-left: 67px;
+    margin-right: 61px;
+    margin-top: 20px;
+}
+
+.info__content {
+    display: flex;
+    justify-content: center;
+    margin: 30px 19px 28px 19px;
+    gap: 6px;
+}
+
+.info__item {
+    border: 1px solid #2F3132;
+    flex-basis: 166px;
+    min-height: 94px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info__item-heading {
+    margin-bottom: 5px;
+}
+
+.carousel-inner {
+    height: 240px;
+}
+
+.info__carousel-heading {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #2F3132;
+    margin-top: 28px;
+}
+
+.carousel-indicators {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carousel-indicators [data-bs-target] {
+    background: none;
+    margin: 0;
+    border: 0;
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+}
+
+.carousel-indicators>:hover {
+    transform: scale(1.2);
+}
+
+.cover__indicator {
+    display: block;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background: none;
+    width: auto;
+    height: auto;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    z-index: 3;
+    height: 352px;
+}
+
+.carousel-control-next:hover~.carousel-indicators>.carousel-control-next-icon {
+    transform: scale(1.2);
+}
+
+.carousel-control-prev:hover~.carousel-indicators>.carousel-control-prev-icon {
+    transform: scale(1.2);
+}
