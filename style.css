@@ -9,18 +9,44 @@ body {
 
 .center_content {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .top {
     background-color: #E0E1E2;
-    padding-top: 25px;
     padding-bottom: 48px;
+}
+
+.navbar {
+    padding-top: 25px;
+    padding-bottom: 0;
+}
+
+.navbar>.container-fluid {
+    justify-content: center;
+}
+
+.navbar-toggler {
+    position: absolute;
+    right: 28px;
+    top: 25px;
+    border: none;
+    padding: 0;
+}
+
+.navbar-toggler-svg {
+    width: 30px;
+    height: 16px;
 }
 
 .header__logo {
     width: 130px;
     height: 39px;
+}
+
+.header__logo_white {
+    display: none;
 }
 
 .top__img {
@@ -349,12 +375,22 @@ body {
 
 @media(min-width: 768px) {
     .top {
-        padding-top: 54px;
         padding-bottom: 80px;
     }
     .header__logo {
         width: 240px;
         height: 73px;
+    }
+    .navbar {
+        padding-top: 54px;
+    }
+    .navbar-toggler {
+        right: 58px;
+        top: 54px;
+    }
+    .navbar-toggler-svg {
+        width: 61px;
+        height: 32px;
     }
     .top__img {
         height: 514px;
@@ -540,5 +576,132 @@ body {
     .footer__text {
         font-size: 14px;
         line-height: 16px;
+    }
+}
+
+/* This media is for bootstap navbar */
+
+@media(min-width: 992px) {
+    .center {
+        padding-right: calc(50% - 580px);
+        padding-left: calc(50% - 580px);
+    }
+    .header {
+        height: 100px;
+        background: #2F3132;
+        display: flex;
+        align-items: center;
+    }
+    .header__logo {
+        width: 150px;
+        height: 45px;
+        margin-left: 61px;
+    }
+    .header__logo_white {
+        display: block;
+    }
+    .header__logo_dark {
+        display: none;
+    }
+    .navbar {
+        padding-top: 0;
+        width: 100%;
+    }
+    .navbar-light .navbar-nav {
+        width: 100%;
+        justify-content: space-between;
+        max-width: 860px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        text-transform: uppercase;
+        text-align: center;
+        border-bottom: 1px solid transparent;
+        color: #FFFFFF;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+        border-bottom: 1px solid white;
+        color: #FFFFFF;
+    }
+    .menu-desctop {
+        display: flex;
+        margin-left: 50px;
+        justify-content: flex-end;
+    }
+    .nav-devim {
+        border-right: 1px solid #494949;
+    }
+    .nav-item:first-child {
+        padding-left: 0;
+    }
+    .nav-item:last-child {
+        padding-right: 0;
+        border-right: none;
+    }
+}
+
+@media(min-width: 1024px) {
+    .top__img {
+        height: 591px;
+        background-image: url(img/MX-Master\ 1\ desctop.png);
+        margin-top: 70px;
+        margin-bottom: 8px;
+        background-size: auto;
+    }
+    .heading {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .text {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .top__arrow {
+        margin-top: 49px;
+    }
+    .top {
+        padding-bottom: 56px;
+    }
+    .bluetooth {
+        padding-top: 45px;
+        padding-bottom: 48px;
+    }
+    .bluetooth__icon {
+        margin-bottom: 41px;
+    }
+    .text__margin {
+        margin-top: 35px;
+        width: 765px;
+    }
+    .bluetooth__img {
+        background-image: url(img/High_Resolution_PNG-MX\ Master\ 3\ FRONT\ GRAPHITE\ 1.png), url(img/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1\ tablet.png);
+        background-position: left 158px, right 109px;
+        background-repeat: no-repeat, no-repeat;
+        background-size: 525px, 630px;
+        height: 426px;
+        margin-top: 14px;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        max-width: 1160px;
+    }
+    .bluetooth__heading_day {
+        font-size: 300px;
+        line-height: 352px;
+        padding-left: 70px;
+    }
+    .bluetooth__heading_day-mini {
+        padding-top: 45px;
+    }
+    .bluetooth__heading {
+        font-size: 96px;
+        line-height: 112px;
+        display: flex;
+        justify-content: center;
     }
 }
