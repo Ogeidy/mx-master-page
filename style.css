@@ -275,26 +275,41 @@ body {
     color: #FFFFFF;
 }
 
-
-
 .mouse {
     background: #FFFFFF;
     padding-top: 0;
     padding-bottom: 0;
 }
 
-.mouse__heading {
-    margin-top: 70px;
+.mouse__text {
+    padding-top: 70px;
+}
+
+.mouse__img {
+    margin-top: 20px;
+    height: 310px;
+    background-size: contain;
 }
 
 .mouse__img_1 {
-    margin-top: 20px;
-    height: 310px;
-    background: url(img/image\ 1.png);
+    background: url(img/image\ 1.png) center no-repeat;
 }
 
 .mouse__img_2 {
-    margin-top: 20px;
-    height: 310px;
-    background: url(img/image\ 2.png);
+    background: url(img/image\ 2.png) center no-repeat;
+}
+
+.footer {
+    height: 75px;
+    background: #2F3132;
+    padding-top: 22px;
+}
+
+.footer__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7px;
+    line-height: 8px;
+    text-align: center;
+    color: #C7C8C8;
 }
