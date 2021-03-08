@@ -170,6 +170,10 @@ body {
     display: none;
 }
 
+.descktop {
+    display: none;
+}
+
 .info__carousel-heading {
     font-style: normal;
     font-weight: 900;
@@ -223,7 +227,6 @@ body {
 .info__carousel-control-prev, .info__carousel-control-next {
     z-index: 3;
     height: 92%;
-    width: 35%;
     width: 27%;
 }
 
@@ -703,5 +706,37 @@ body {
         line-height: 112px;
         display: flex;
         justify-content: center;
+    }
+    .info__item {
+        flex-basis: 236px;
+        min-height: 140px;
+    }
+    .info__carousel-control-prev, .info__carousel-control-next {
+        width: 31%;
+    }
+    .info__carousel-heading {
+        margin-top: 29px;
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .info {
+        padding-bottom: 70px;
+    }
+    .tablet {
+        display: none;
+    }
+    .descktop {
+        display: inline;
+    }
+    .flow__text-margin {
+        min-width: 958px;
+    }
+    .flow {
+        padding-bottom: 653px;
+        background-image: url(img/High_Resolution_JPG-MX\ Lifestyle\ 2346\ descktop.png);
+    }
+    .flow__ol {
+        width: 958px;
+        margin-top: 71px;
     }
 }
