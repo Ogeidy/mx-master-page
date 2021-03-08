@@ -271,6 +271,10 @@ body {
     padding-bottom: 0;
 }
 
+.settings__img-big {
+    display: none;
+}
+
 .settings__carousel {
     margin-top: 35px;
     display: flex;
@@ -738,5 +742,32 @@ body {
     .flow__ol {
         width: 958px;
         margin-top: 71px;
+    }
+    .settings {
+        padding-bottom: 71px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .settings__carousel {
+        display: none;
+    }
+    .settings__img-big {
+        display: block;
+        width: 100%;
+        max-width:1171px;
+        height: 640px;
+        margin-top: 54px;
+        background-image: url(img/settings_big.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .settings__content {
+        margin-top: 0;
+        padding-top: 38px;
+        padding-bottom: 29px;
+    }
+    .settings__text {
+        margin-top: 25px;
     }
 }
