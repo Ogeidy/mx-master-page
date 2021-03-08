@@ -18,9 +18,15 @@ body {
     padding-bottom: 48px;
 }
 
+.header__logo {
+    width: 130px;
+    height: 39px;
+}
+
 .top__img {
     height: 230px;
-    background: url(img/MX-Master\ 1.png) no-repeat;
+    background-image: url(img/MX-Master\ 1.png);
+    background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
     margin-top: 94px;
@@ -35,6 +41,7 @@ body {
     line-height: 23px;
     text-align: center;
     color: #2F3132;
+    margin-bottom: 0;
 }
 
 .text {
@@ -84,7 +91,8 @@ body {
 }
 
 .bluetooth__img {
-    background: url(img/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1.png) no-repeat;
+    background-image: url(img/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1.png);
+    background-repeat: no-repeat;
     background-size: contain;
     background-position: center bottom;
     height: 288px;
@@ -100,7 +108,6 @@ body {
 .info__text-margin {
     margin-left: 67px;
     margin-right: 61px;
-    margin-top: 20px;
 }
 
 .info__content {
@@ -129,6 +136,14 @@ body {
     align-items: center;
 }
 
+.mobile {
+    display: block;
+}
+
+.tablet {
+    display: none;
+}
+
 .info__carousel-heading {
     font-style: normal;
     font-weight: 900;
@@ -137,12 +152,14 @@ body {
     text-align: center;
     color: #2F3132;
     margin-top: 28px;
+    margin-bottom: 0;
 }
 
 .info__carousel-indicators {
     position: relative;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     max-width: 308px;
     width: 100%;
 }
@@ -167,6 +184,8 @@ body {
 
 .cover__indicator {
     display: block;
+    width: 30px;
+    height: 30px;
 }
 
 .info__carousel-control-prev-icon, .info__carousel-control-next-icon {
@@ -177,7 +196,9 @@ body {
 
 .info__carousel-control-prev, .info__carousel-control-next {
     z-index: 3;
-    height: 352px;
+    height: 92%;
+    width: 35%;
+    width: 27%;
 }
 
 .info__carousel-control-next:hover~.info__carousel-indicators>.info__carousel-control-next-icon {
@@ -191,7 +212,11 @@ body {
 .flow {
     padding-top: 70px;
     padding-bottom: 219px;
-    background: #EDEDED url(img/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png) bottom no-repeat;
+    background-color: #EDEDED;
+    background-image: url(img/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .flow__ol {
@@ -233,6 +258,11 @@ body {
     text-align: center;
 }
 
+.settings__carousel-control {
+    width: 40%;
+    height: 95%;
+}
+
 .settings__carousel-indicators {
     margin-top: 21px;
     margin-bottom: 0;
@@ -266,9 +296,10 @@ body {
 .settings__icons {
     display: flex;
     justify-content: space-between;
-    gap: 22px;
+    gap: 10px;
     margin-left: 29px;
     margin-right: 22px;
+    height: 22px;
 }
 
 .settings__text {
@@ -289,14 +320,16 @@ body {
     margin-top: 20px;
     height: 310px;
     background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .mouse__img_1 {
-    background: url(img/image\ 1.png) center no-repeat;
+    background-image: url(img/image\ 1.png);
 }
 
 .mouse__img_2 {
-    background: url(img/image\ 2.png) center no-repeat;
+    background-image: url(img/image\ 2.png);
 }
 
 .footer {
@@ -312,4 +345,200 @@ body {
     line-height: 8px;
     text-align: center;
     color: #C7C8C8;
+}
+
+@media(min-width: 768px) {
+    .top {
+        padding-top: 54px;
+        padding-bottom: 80px;
+    }
+    .header__logo {
+        width: 240px;
+        height: 73px;
+    }
+    .top__img {
+        height: 514px;
+        background-image: url(img/MX-Master\ 1\ tablet.png);
+        margin-top: 160px;
+        margin-bottom: 124px;
+    }
+    .heading {
+        font-size: 40px;
+        line-height: 47px;
+    }
+    .text {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .top__text-margin {
+        margin-left: 154px;
+        margin-right: 155px;
+    }
+    .top__arrow {
+        margin-top: 76px;
+    }
+    .top__arrow-svg {
+        width: 57px;
+        height: 29px;
+    }
+    .bluetooth {
+        padding-top: 80px;
+        padding-bottom: 0;
+    }
+    .bluetooth__icon {
+        margin-bottom: 32px;
+    }
+    .bluetooth__icon-svg {
+        width: 21px;
+        height: 40px;
+    }
+    .text__margin {
+        margin-left: 77px;
+        margin-right: 77px;
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+    .bluetooth__heading {
+        font-size: 150px;
+        line-height: 176px;
+    }
+    .bluetooth__img {
+        background-image: url(img/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1\ tablet.png);
+        height: 597px;
+        margin-top: 76px;
+        margin-left: 39px;
+        margin-right: 19px;
+    }
+    .info {
+        padding-bottom: 61px;
+    }
+    .info__content {
+        margin: 50px 132px;
+        gap: 30px;
+    }
+    .info__item {
+        flex-basis: 300px;
+        min-height: 170px;
+    }
+    .info__carousel-heading {
+        margin-top: 50px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .info__carousel-indicators {
+        margin-top: 23px;
+        max-width: 404px;
+    }
+    .cover__indicator {
+        width: 40px;
+        height: 40px;
+    }
+    .info__carousel-control-svg {
+        width: 15px;
+        height: 30px;
+    }
+    .info__carousel-text-margin {
+        margin-top: 22px;
+    }
+    .tablet {
+        display: inline;
+    }
+    .mobile {
+        display: none;
+    }
+    .flow {
+        padding-bottom: 492px;
+        background-image: url(img/High_Resolution_JPG-MX\ Lifestyle\ 2346\ tablet.png);
+    }
+    .flow__heading {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .flow__text-margin {
+        margin-left: 64px;
+        margin-right: 65px;
+    }
+    .flow__ol {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 0;
+        margin-top: 62px;
+        margin-left: 67px;
+        margin-right: 68px;
+    }
+    .flow__text {
+        font-size: 20px;
+        line-height: 23px;
+        padding: 8px 21px 4px 24px;
+        border-left: 1px solid #494949;
+    }
+    .flow__text:first-child {
+        border-left: none;
+        padding-left: 0;
+    }
+    .flow__text:last-child {
+        padding-right: 0;
+    }
+    .settings {
+        padding-bottom: 70px;
+        padding-left: 64px;
+        padding-right: 65px;
+    }
+    .settings__text-margin {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .settings__content {
+        margin-top: 70px;
+        padding-top: 38px;
+        padding-bottom: 29px;
+    }
+    .settings__icons {
+        margin-left: 127px;
+        margin-right: 126px;
+        height: 35px;
+    }
+    .settings__text {
+        font-size: 20px;
+        line-height: 23px;
+        margin-left: 68px;
+        margin-right: 68px;
+    }
+    .settings__carousel {
+        margin-top: 54px;
+    }
+    .settings__carousel-inner {
+        max-width: 497px;
+    }
+    .settings__carousel-indicators {
+        margin-top: 53px;
+        gap: 25px;
+    }
+    .settings__carousel-indicators [data-bs-target] {
+        width: 25px;
+        height: 25px;
+    }
+    .mouse__text-margin {
+        margin-top: 30px;
+        margin-left: 67px;
+        margin-right: 65px;
+    }
+    .mouse__img {
+        margin-top: 50px;
+        height: 549px;
+    }
+    .mouse__img_1 {
+        background-image: url(img/image\ 1\ tablet.png);
+    }
+    .mouse__img_2 {
+        background-image: url(img/image\ 2\ tablet.png);
+    }
+    .footer {
+        height: 150px;
+        padding-top: 47px;
+    }
+    .footer__text {
+        font-size: 14px;
+        line-height: 16px;
+    }
 }
