@@ -328,10 +328,7 @@ body {
 
 .settings__icons {
     display: flex;
-    justify-content: space-between;
-    gap: 10px;
-    margin-left: 29px;
-    margin-right: 22px;
+    justify-content: space-around;
     height: 22px;
 }
 
