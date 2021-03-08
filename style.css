@@ -274,3 +274,27 @@ body {
 .settings__text {
     color: #FFFFFF;
 }
+
+
+
+.mouse {
+    background: #FFFFFF;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.mouse__heading {
+    margin-top: 70px;
+}
+
+.mouse__img_1 {
+    margin-top: 20px;
+    height: 310px;
+    background: url(img/image\ 1.png);
+}
+
+.mouse__img_2 {
+    margin-top: 20px;
+    height: 310px;
+    background: url(img/image\ 2.png);
+}
