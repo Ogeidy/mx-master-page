@@ -754,7 +754,7 @@ body {
     .settings__img-big {
         display: block;
         width: 100%;
-        max-width:1171px;
+        max-width: 1171px;
         height: 640px;
         margin-top: 54px;
         background-image: url(img/settings_big.png);
@@ -769,5 +769,61 @@ body {
     }
     .settings__text {
         margin-top: 25px;
+    }
+    .mouse {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .mouse__item {
+        margin-top: 0;
+        height: 557px;
+        width: 50%;
+    }
+    .mouse__img_1 {
+        order: 0;
+        background-image: url(img/image\ 1\ descktop.png);
+        background-position: right;
+    }
+    .mouse__text_1 {
+        order: 1;
+    }
+    .mouse__text_2 {
+        order: 2;
+    }
+    .mouse__img_2 {
+        order: 3;
+        background-image: url(img/image\ 2\ descktop.png);
+        background-position: left;
+    }
+    .mouse__text_1 {
+        padding-top: 121px;
+        padding-left: 36px;
+    }
+    .mouse__text_1>.heading {
+        text-align: left;
+        width: 400px;
+    }
+    .mouse__text_1>.mouse__text-margin {
+        text-align: left;
+        margin-left: 0;
+        margin-right: 0;
+        width: 400px;
+    }
+    .mouse__text_2 {
+        padding-top: 162px;
+        padding-right: 32px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .mouse__text_2>.heading {
+        text-align: right;
+        width: 400px;
+    }
+    .mouse__text_2>.mouse__text-margin {
+        text-align: right;
+        margin-left: 0;
+        margin-right: 0;
+        width: 400px;
     }
 }
