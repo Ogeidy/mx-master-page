@@ -5,6 +5,7 @@
 
 body {
     font-family: Roboto;
+    min-width: 320px;
 }
 
 .center_content {
@@ -300,12 +301,17 @@ body {
 
 .flow {
     padding-top: 70px;
-    padding-bottom: 219px;
+    padding-bottom: 0;
     background-color: #EDEDED;
+}
+
+.flow__img {
     background-image: url(img/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
+    width: 100%;
+    padding-bottom: 58%;
 }
 
 .flow__ol {
@@ -463,7 +469,6 @@ body {
         top: 40px;
         right: 58px;
     }
-    
     .collapse-heder__exit>svg {
         width: 60px;
         height: 60px;
@@ -572,8 +577,8 @@ body {
     .mobile {
         display: none;
     }
-    .flow {
-        padding-bottom: 492px;
+    .flow__img {
+        padding-bottom: 55%;
         background-image: url(img/High_Resolution_JPG-MX\ Lifestyle\ 2346\ tablet.png);
     }
     .flow__heading {
@@ -826,13 +831,13 @@ body {
     .flow__text-margin {
         min-width: 958px;
     }
-    .flow {
-        padding-bottom: 653px;
+    .flow__img {
+        padding-bottom: 51%;
         background-image: url(img/High_Resolution_JPG-MX\ Lifestyle\ 2346\ descktop.png);
     }
     .flow__ol {
         width: 958px;
-        margin-top: 71px;
+        margin-top: 66px;
     }
     .settings {
         padding-bottom: 71px;
@@ -936,7 +941,11 @@ body {
     }
     .flow {
         padding-top: 100px;
-        padding-bottom: 870px;
+        /* padding-left: calc(50% - 930px);
+        padding-right: calc(50% - 930px); */
+    }
+    .flow__img {
+        padding-bottom: 45.3%;
         background-image: url(img/High_Resolution_JPG-MX\ Lifestyle\ 2346\ big.png);
         max-width: 1920px;
     }
@@ -947,5 +956,11 @@ body {
     .mouse {
         padding-bottom: 100px;
         padding-top: 100px;
+    }
+}
+
+@media(min-width: 1980px) {
+    .flow__img {
+        padding-bottom: 870px;
     }
 }
