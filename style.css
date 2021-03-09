@@ -782,24 +782,24 @@ body {
         width: 765px;
     }
     .bluetooth__img {
-        background-image: url(img/High_Resolution_PNG-MX\ Master\ 3\ FRONT\ GRAPHITE\ 1.png), url(img/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1\ tablet.png);
-        background-position: left 158px, right 109px;
+        background-image: url(img/High_Resolution_PNG-MX\ Master\ 3\ FRONT\ GRAPHITE\ 1.png), url(img/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1\ descktop.png);
+        background-position: left bottom, right 129px;
         background-repeat: no-repeat, no-repeat;
-        background-size: 525px, 630px;
+        background-size: 533px, 667px;
         height: 426px;
         margin-top: 14px;
         margin-left: 0;
         margin-right: 0;
         width: 100%;
-        max-width: 1160px;
+        max-width: 1245px;
     }
     .bluetooth__heading_day {
         font-size: 300px;
         line-height: 352px;
-        padding-left: 70px;
+        padding-left: 84px;
     }
     .bluetooth__heading_day-mini {
-        padding-top: 45px;
+        padding-top: 55px;
     }
     .bluetooth__heading {
         font-size: 96px;
