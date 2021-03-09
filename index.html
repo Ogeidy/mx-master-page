@@ -16,65 +16,59 @@
 <body>
     <section class="top">
         <header class="header center">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container-fluid">
 
-                    <a href="index.html">
-                        <img src="img/Logo_Logitech_dark 1.png" class="header__logo header__logo_dark" alt="logo">
-                        <img src="img/Logo_Logitech 1.png" class="header__logo header__logo_white" alt="logo">
-                    </a>
+            <div class="header__logo">
+                <a href="index.html">
+                    <img src="img/Logo_Logitech_dark 1.png" class="header__logo-img header__logo-img_dark" alt="logo">
+                    <img src="img/Logo_Logitech 1.png" class="header__logo-img header__logo-img_white" alt="logo">
+                </a>
+            </div>
 
+            <input type="checkbox" id="navbar__toggler" class="navbar__toggler-checkbox" hidden>
+            <label for="navbar__toggler" class="navbar__toggler-label">
+                <svg class="navbar__toggler-svg" width="31" height="20" viewBox="0 0 31 20" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M30.5 18L0.5 18M30.5 10.1311L0.500007 10.1311M30.5 2.2623L0.500038 2.2623" stroke="#2F3132"
+                        stroke-width="4" />
+                </svg>
+            </label>
 
-
-                    <div class="collapse navbar-collapse menu-desctop" id="navbarNav">
-                        <div class="collapse-header">
-                            <img src="img/Logo_Logitech 1.png" class="header__logo" alt="logo">
-                            <div class="collapse-heder__exit">
-                                <svg width="87" height="87" viewBox="0 0 87 87" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M64.6999 64.7004L21.5664 21.5669M21.5668 64.7004L64.7003 21.567"
-                                        stroke="white" stroke-width="8" />
-                                </svg>
-                            </div>
-                        </div>
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Работайте без проводов</a>
-                            </li>
-                            <li class="nav-devim"></li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#bluetooth">Где угодно</a>
-                            </li>
-                            <li class="nav-devim"></li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#info">С комфортом</a>
-                            </li>
-                            <li class="nav-devim"></li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#flow">С разных устройств</a>
-                            </li>
-                            <li class="nav-devim"></li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#settings">В любое время</a>
-                            </li>
-                            <li class="nav-devim"></li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#mouse">И еще быстрее</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <svg class="navbar-toggler-svg" width="31" height="20" viewBox="0 0 31 20" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path d="M30.5 18L0.5 18M30.5 10.1311L0.500007 10.1311M30.5 2.2623L0.500038 2.2623"
-                                stroke="#2F3132" stroke-width="4" />
-                        </svg>
-                    </button>
-
+            <div class="header__navbar">
+                <img src="img/Logo_Logitech 1.png" class="header__logo-img header__logo-navbar" alt="logo">
+                <div class="header__navbar-exit">
+                    <svg class="header__navbar-exit-svg" width="87" height="87" viewBox="0 0 87 87" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M64.6999 64.7004L21.5664 21.5669M21.5668 64.7004L64.7003 21.567"
+                            stroke="white" stroke-width="8" />
+                    </svg>
                 </div>
-            </nav>
+                <ul class="navbar_list">
+                    <li class="navbar_item">
+                        <a class="navbar_link" href="#">Работайте без проводов</a>
+                    </li>
+                    <li class="navbar_devim"></li>
+                    <li class="navbar_item">
+                        <a class="navbar_link" href="#bluetooth">Где угодно</a>
+                    </li>
+                    <li class="navbar_devim"></li>
+                    <li class="navbar_item">
+                        <a class="navbar_link" href="#info">С комфортом</a>
+                    </li>
+                    <li class="navbar_devim"></li>
+                    <li class="navbar_item">
+                        <a class="navbar_link" href="#flow">С разных устройств</a>
+                    </li>
+                    <li class="navbar_devim"></li>
+                    <li class="navbar_item">
+                        <a class="navbar_link" href="#settings">В любое время</a>
+                    </li>
+                    <li class="navbar_devim"></li>
+                    <li class="navbar_item">
+                        <a class="navbar_link" href="#mouse">И еще быстрее</a>
+                    </li>
+                </ul>
+            </div>
+
         </header>
         <div class="top__img">
             <h2 class="heading">Работайте продуктивнее</h2>
